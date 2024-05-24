@@ -1,7 +1,9 @@
+
+
 export default function Home() {
   return (
-    <div className="bg-black pt-10 flex items-top justify-center h-svh">
-      <main className=" max-w-xl mx-auto">
+    <div className="bg-black mt-10 flex items-center justify-center min-h-screen">
+      <main className="max-w-xl mx-auto">
         <h1 className="text-white text-3xl font-bold mb-8">
           Generate your AI Image
         </h1>
