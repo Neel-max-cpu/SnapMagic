@@ -2,6 +2,7 @@
 
 ## Live Demo here  -> [Link](https://snap-magic-m9pyg204i-neel-max-cpus-projects.vercel.app/) ⭐
 
+# Please credits for free generation are limited so, don't just directly generate :)
 
 ### Images of the App with there prompt! :memo:
 ![Image 1](https://github.com/Neel-max-cpu/SnapMagic/blob/main/public/image/1.png?raw=true)
