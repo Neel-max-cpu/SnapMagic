@@ -1,6 +1,6 @@
 # SnapMagic - An Ai Image Generator :tada:
 
-<!-- ## Live Demo here  -> [Link](https://text-webapp-utils.netlify.app/) ⭐ -->
+## Live Demo here  -> [Link](https://snap-magic-m9pyg204i-neel-max-cpus-projects.vercel.app/) ⭐
 
 
 ### Images of the App with there prompt! :memo:
