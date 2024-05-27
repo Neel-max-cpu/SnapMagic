@@ -43,35 +43,35 @@
 
 
 // app/api/generate/route.ts
-import { NextRequest, NextResponse } from 'next/server';
-import axios from 'axios';
+// import { NextRequest, NextResponse } from 'next/server';
+// import axios from 'axios';
 
-// just for checking -----
-// export async function GET(request: Request) {
-//   return new Response("Hello, Next.js!");
+// // just for checking -----
+// // export async function GET(request: Request) {
+// //   return new Response("Hello, Next.js!");
+// // }
+
+// export async function POST(request: NextRequest) {
+//   const { prompt } = await request.json();
+
+//   if (!prompt || prompt.length === 0) {
+//     return NextResponse.json({ error: true, message: "Prompt cannot be empty" }, { status: 400 });
+//   }
+
+//   try {
+//     const response = await axios.post('https://api.your-stable-diffusion-endpoint.com/generate', {
+//       prompt,
+//     }, {
+//       headers: {
+//         'Authorization': `Bearer ${process.env.STABLE_API_KEY}`,
+//         'Content-Type': 'application/json',
+//       },
+//     });
+
+//     const { images } = response.data;
+//     return NextResponse.json({ images }, { status: 200 });
+//   } catch (error) {
+//     console.error('Error generating image:', error);
+//     return NextResponse.json({ error: true, message: 'Error generating image' }, { status: 500 });
+//   }
 // }
-
-export async function POST(request: NextRequest) {
-  const { prompt } = await request.json();
-
-  if (!prompt || prompt.length === 0) {
-    return NextResponse.json({ error: true, message: "Prompt cannot be empty" }, { status: 400 });
-  }
-
-  try {
-    const response = await axios.post('https://api.your-stable-diffusion-endpoint.com/generate', {
-      prompt,
-    }, {
-      headers: {
-        'Authorization': `Bearer ${process.env.STABLE_API_KEY}`,
-        'Content-Type': 'application/json',
-      },
-    });
-
-    const { images } = response.data;
-    return NextResponse.json({ images }, { status: 200 });
-  } catch (error) {
-    console.error('Error generating image:', error);
-    return NextResponse.json({ error: true, message: 'Error generating image' }, { status: 500 });
-  }
-}

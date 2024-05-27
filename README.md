@@ -1,7 +1,35 @@
+# SnapMagic - An Ai Image Generator :tada:
+
+<!-- ## Live Demo here  -> [Link](https://text-webapp-utils.netlify.app/) ⭐ -->
+
+
+### Images of the App with there prompt! :memo:
+![Image 1](https://github.com/Neel-max-cpu/SnapMagic/blob/main/public/image/1.png?raw=true)
+![Image 2](https://github.com/Neel-max-cpu/SnapMagic/blob/main/public/image/2.png?raw=true)
+![Image 3](https://github.com/Neel-max-cpu/SnapMagic/blob/main/public/image/3.png?raw=true)
+![Image 4](https://github.com/Neel-max-cpu/SnapMagic/blob/main/public/image/4.png?raw=true)
+![Image 5](https://github.com/Neel-max-cpu/SnapMagic/blob/main/public/image/5.png?raw=true)
+![Image 6](https://github.com/Neel-max-cpu/SnapMagic/blob/main/public/image/6.png?raw=true)
+![Image 7](https://github.com/Neel-max-cpu/SnapMagic/blob/main/public/image/7.png?raw=true)
+![Image 8](https://github.com/Neel-max-cpu/SnapMagic/blob/main/public/image/8.png?raw=true)
+![Image 9](https://github.com/Neel-max-cpu/SnapMagic/blob/main/public/image/9.png?raw=true)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
+## SnapMagic
+Snap Magic is an online image generator, where one can generate image using prompts. One can also download the images. It is made with the help of stable diffusion version 1. Tech Stack used is: Next Js 14, TypeScript, and TailWind CSS. It works well for mobile devices too! The routing is not needed for the app to work(app/api/generate/route.ts)
+
+[Stable Diffusion](https://stability.ai/) Website
+
+## Getting Started
+Install the elements 
+```bash
+npm i 
+# or 
+npm install
+```
 First, run the development server:
 
 ```bash

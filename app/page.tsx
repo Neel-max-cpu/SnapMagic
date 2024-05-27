@@ -172,7 +172,7 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-gradient-to-b from-black from-45% via-purple-500 via-70% to-white to-90% pt-10 flex items-top justify-center h-screen">
+    <div className="bg-gradient-to-b from-black from-45% via-purple-500 via-70% to-white to-90% pt-10 sm:p-20 flex items-top justify-center h-screen">
       <main className="max-w-xl mx-auto">
         <h1 className="text-white text-3xl font-bold mb-8">
           Generate your AI Image
