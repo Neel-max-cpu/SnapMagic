@@ -1,6 +1,6 @@
 # SnapMagic - An Ai Image Generator :tada:
 
-## Live Demo here  -> [Link](https://snap-magic-m9pyg204i-neel-max-cpus-projects.vercel.app/) ⭐
+## Live Demo here  -> [Link](https://snap-magic.vercel.app/) ⭐
 
 ## Please credits for free generation are limited so, don't just directly generate :)
 
