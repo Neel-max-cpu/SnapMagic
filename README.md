@@ -2,6 +2,8 @@
 
 ## Live Demo here  -> [Link](https://snap-magic.vercel.app/) ⭐
 
+## Working of the App Video -> [Link](https://youtu.be/9y6bvnO9Yq8)✨
+
 ## Please credits for free generation are limited so, don't just directly generate :)
 
 ### Images of the App with there prompt! :memo:
